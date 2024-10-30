@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://w7kp3.sharepoint.com/sites/Customizers/Lists/customList/AllItems.aspx",
+      "customActions": {
+        "a97adc43-94e9-416d-9130-2e9d2fec7380": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    
+   
+          }
+        }
+      }
+    
